@@ -7,13 +7,13 @@ This repository contains the final deliverables for our team's INST327 database 
 Video games have undergone significant advancements in graphics and gameplay over the years. The Nintendo Switch, released in 2017, introduced a unique hybrid console that can be used both as a home console and a portable handheld device. However, there is a lack of easy access to information about new Switch exclusives. To address this problem, our team developed a database that includes details about every Nintendo Switch exclusive game, such as genre, release date, reviews, and multiplayer capabilities.
 
 ## Database Description
-The database follows a logical design centered around the games table. All other tables in the database refer to the games table via the game_id primary key. The games table holds essential information about each game, including its name, release date, developer, and publisher. An Entity Relationship Diagram (ERD) illustrating the structure of the database is [included]("../MySQL_games_database/ERD.pdf").
+The database follows a logical design centered around the games table. All other tables in the database refer to the games table via the game_id primary key. The games table holds essential information about each game, including its name, release date, developer, and publisher. An Entity Relationship Diagram (ERD) illustrating the structure of the database is [included](https://github.com/GuntherChung/MySQL_games_database/blob/main/ERD.pdf).
 
 ## Sample Data
 To build the database, our team collected a smaller version of the Nintendo games dataset. We compiled the data into an excel sheet before splitting it into separate sheets for each table. This method streamlined data importation and ensured clean and organized data for our work.
 
 ## Views / Queries
-The database includes various [views and queries](../MySQL_games_database/data_queries.sql) to fulfill specific requirements. These include sorting games based on Metacritic ratings, counting game series, retrieving games developed by specific developers, obtaining single-player games, filtering games with a "T" rating, and providing general information about games.
+The database includes various [views and queries](https://github.com/GuntherChung/MySQL_games_database/blob/main/data_queries.sql) to fulfill specific requirements. These include sorting games based on Metacritic ratings, counting game series, retrieving games developed by specific developers, obtaining single-player games, filtering games with a "T" rating, and providing general information about games.
 
 ## Changes from the Original Design
 Initially, our plan was to create a database encompassing all video games released since the original Xbox. However, due to the vast number of games and limited availability of relevant datasets, we decided to narrow the scope to Nintendo games. Eventually, we further refined the scope to exclusively focus on Nintendo Switch games. This allowed us to gather readily available information and ensured a manageable project size. As a result of these changes, we adjusted our tables and queries accordingly.
