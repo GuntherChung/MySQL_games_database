@@ -1,7 +1,7 @@
 # Nintendo Switch Games Database
-This repository that will hold MySQL school work.
+This repository will hold MySQL work for a school team project.
 
-This repository contains the final deliverables for our INST327 database project. The project focuses on creating a comprehensive database for Nintendo Switch exclusive games. The goal of the project is to provide Switch owners with a platform to discover new games and make informed purchase decisions.
+This repository contains the final deliverables for our team's INST327 database project. The project focuses on creating a comprehensive database for Nintendo Switch exclusive games. The goal of the project is to provide Switch owners with a platform to discover new games and make informed purchase decisions.
 
 ## Introduction
 Video games have undergone significant advancements in graphics and gameplay over the years. The Nintendo Switch, released in 2017, introduced a unique hybrid console that can be used both as a home console and a portable handheld device. However, there is a lack of easy access to information about new Switch exclusives. To address this problem, our team developed a database that includes details about every Nintendo Switch exclusive game, such as genre, release date, reviews, and multiplayer capabilities.
